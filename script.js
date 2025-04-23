@@ -2,14 +2,14 @@
 // 1. Firebase Configuration & Initialization
 // ======================================================================
 const firebaseConfig = {
-  apiKey: "AIzaSyBLP1YSrdUd_LGu4xZ-jKf-_FPYljq226w",
-  authDomain: "project-4814457387099311122.firebaseapp.com",
-  databaseURL: "https://project-4814457387099311122-default-rtdb.firebaseio.com",
-  projectId: "project-4814457387099311122",
-  storageBucket: "project-4814457387099311122.firebasestorage.app",
-  messagingSenderId: "1065188683035",
-  appId: "1:1065188683035:web:0a2dce8ad18521bfba77be",
-  measurementId: "G-S3H1YJQEPR"
+  apiKey: "AIzaSyCnBdrB7Ezvdw81OMOBP_Jy4LhOzJ83V3A",
+  authDomain: "text-memo-ver1.firebaseapp.com",
+  databaseURL: "https://text-memo-ver1-default-rtdb.firebaseio.com",
+  projectId: "text-memo-ver1",
+  storageBucket: "text-memo-ver1.appspot.com", //修正：提供された情報に合わせる（.appspot.comが一般的）
+  messagingSenderId: "25236892746",
+  appId: "1:25236892746:web:8b6ea45a19904e313f0ab3",
+  measurementId: "G-S3Q4Q6H43Q"
 };
 
 firebase.initializeApp(firebaseConfig);

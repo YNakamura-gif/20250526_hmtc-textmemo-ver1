@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "project-4814457387099311122"
-  }
+    "default": "project-4814457387099311122",
+    "staging": "text-memo-ver1"
+  },
+  "targets": {},
+  "etags": {}
 }
