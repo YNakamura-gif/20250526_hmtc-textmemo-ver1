@@ -1,0 +1,7 @@
+[33mcommit 9e115101d83442e696c179462632353a98c68b70[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 24 14:43:23 2025 +0900
+
+     fix: iOSのホーム画面アイコン表示を改善
+    
+    apple-touch-iconの参照を絶対パスに変更し、複数サイズのアイコンとprecomposedアイコンを追加。ファビコンの名前も修正。
