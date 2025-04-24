@@ -7,13 +7,25 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
-  <!-- iOS向けアイコン設定（シンプルに）-->
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="theme-color" content="#2563eb">
+  <!-- iOS向け専用設定 -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="12条点検">
+  <!-- アイコン設定 -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="theme-color" content="#2563eb">
+  <!-- iOS Safari用JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "12条点検 テキスト記録アプリ",
+      "applicationCategory": "UtilityApplication",
+      "image": "https://text-memo-ver1.web.app/apple-touch-icon.png"
+    }
+  </script>
 </head>
 <body class="bg-gray-100 min-h-screen">
   <header class="bg-blue-600 text-white p-4 shadow-md">
