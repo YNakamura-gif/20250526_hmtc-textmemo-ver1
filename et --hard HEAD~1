@@ -1,0 +1,40 @@
+[33mcommit 1e25ff4bf5731b993e4e75d6bc2ede5e00550251[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 24 16:58:39 2025 +0900
+
+     fix: index.htmlをpublicディレクトリに移動
+    
+    - アイコンファイルとの参照関係を修正\n- Firebase Hostingの推奨プラクティスに従い配置を修正
+
+[33mcommit b8bb39e5ed0d70d1e57c36bdea5efb981daad5ff[m
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 24 16:57:21 2025 +0900
+
+     feat: ルートディレクトリにindex.htmlを追加
+    
+    Firebase Hostingの設定に合わせて、ルートディレクトリにindex.htmlを作成。\n- タブインターフェースの実装\n- 建物選択用のチェックボックスの追加\n- レスポンシブデザインの適用
+
+[33mcommit 19ec7be9709e367b6ec8cb65cfdaded207f78bb7[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: d31e1d4 1c9e4f6
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 24 16:55:03 2025 +0900
+
+     merge: リモートの変更を統合
+    
+    - Firebase設定をtext-memo-ver2に更新\n- index.htmlをpublicディレクトリに移動\n- .firebasercの設定を統合
+
+[33mcommit d31e1d4e0e24939a34f19ca32544bfd0ad5cc82a[m
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 24 16:48:38 2025 +0900
+
+    🎨 feat: PWA対応のアイコン設定を修正
+    
+    - アイコンファイルとmanifest.jsonをpublicディレクトリに集約\n- Firebase Hostingの設定を修正\n- PWA関連のmetaタグを更新
+
+[33mcommit f9465616749cd28ff842a8323382e48212a24e61[m
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 24 16:28:48 2025 +0900
+
+     chore: CSVファイルをpublicディレクトリに移動
+    
+    - 予測変換用のCSVファイルをpublicディレクトリに移動し、Hosting設定と整合させる
