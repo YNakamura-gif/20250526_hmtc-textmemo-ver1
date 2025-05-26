@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // すべてのドキュメントに対する読み書きを許可（期限なし）
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+} 
