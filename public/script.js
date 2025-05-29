@@ -2,14 +2,14 @@
 // 1. Firebase Configuration & Initialization
 // ======================================================================
 const firebaseConfig = {
-  apiKey: "AIzaSyCnBdrB7Ezvdw81OMOBP_Jy4LhOzJ83V3A",
-  authDomain: "text-memo-ver1.firebaseapp.com",
-  databaseURL: "https://text-memo-ver1-default-rtdb.firebaseio.com",
-  projectId: "text-memo-ver1",
-  storageBucket: "text-memo-ver1.appspot.com", //修正：提供された情報に合わせる（.appspot.comが一般的）
-  messagingSenderId: "25236892746",
-  appId: "1:25236892746:web:8b6ea45a19904e313f0ab3",
-  measurementId: "G-S3Q4Q6H43Q"
+  apiKey: "AIzaSyAE2y46y5dNrdecQJob9PbjRR7N5t9V6QA",
+  authDomain: "tepica-note-hmtc-a12.firebaseapp.com",
+  databaseURL: "https://tepica-note-hmtc-a12-default-rtdb.firebaseio.com",
+  projectId: "tepica-note-hmtc-a12",
+  storageBucket: "tepica-note-hmtc-a12.firebasestorage.app",
+  messagingSenderId: "101026170479",
+  appId: "1:101026170479:web:7cfbcac4e36b6f45356f9a",
+  measurementId: "G-TG5CQ3S7QF"
 };
 
 firebase.initializeApp(firebaseConfig);
